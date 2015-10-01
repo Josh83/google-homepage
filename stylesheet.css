@@ -1,3 +1,96 @@
 body {
 	font-family: sans-serif;
+	font-size: 13px;
+	text-align: center;
 }
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.nav_container ul {
+	text-align: right;
+}
+
+li {
+	display: inline-block;
+	margin: 1.2em 0.5em 0 0;
+}
+
+.btn_sign_in {
+	display: inline-block;
+	padding: 0.6em 1em 0.6em 1em;
+	background-color: #2196F3;
+	color: white;
+	font-weight: bold;
+	border-radius: 4px;
+}
+
+.btn_sign_in a {
+}
+
+.logo_container {
+	margin-top: 155px;
+}
+
+input[type=text] {
+	width: 520px;
+	margin: 1em;
+	padding: 0.7em;
+	border: 1px solid #EEEEEE;
+}
+
+input:hover[type=text] {
+	border: 1px solid gray;
+}
+
+input[type=submit] {
+	margin: 1em 0 2em 0;
+	padding: 0.7em;
+	background-color: #EEEEEE;
+	color: #616161;
+	font-weight: 600;
+	border: 1px solid white;
+}
+
+input:hover[type=submit] {
+	border: 1px solid gray;
+}
+
+.icon_container {
+	margin-top: 1em;
+}
+
+.footer_container {
+	position: absolute;
+	background-color:#EEEEEE;
+	bottom: 0;
+	height: 4em;
+	width: 100%;
+
+}
+
+.footer_left {
+	display: inline-block;
+	float: left;
+	text-align: right;
+	margin: 0.5em 3em 0.5em 3em
+}
+
+.footer_right {
+	display: inline-block;
+	float: right;
+	text-align: right;
+	margin: 0.5em 3em 0.5em 3em
+}
+
+
+
+
+
+
+
