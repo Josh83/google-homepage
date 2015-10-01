@@ -2,6 +2,7 @@ body {
 	font-family: sans-serif;
 	font-size: 13px;
 	text-align: center;
+	color: #616161;
 }
 
 a {
@@ -11,6 +12,11 @@ a {
 a:hover {
 	text-decoration: underline;
 }
+
+a:visited {
+	color: #616161;
+}
+
 
 .nav_container ul {
 	text-align: right;
